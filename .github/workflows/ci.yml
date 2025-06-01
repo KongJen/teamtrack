@@ -38,7 +38,7 @@ jobs:
 
       - name: Run DB connection test
         env:
-          DATABASE_URL: postgres://postgres:postgres@localhost:5432/teamtrack
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
           cd backend
           node test/test.js
