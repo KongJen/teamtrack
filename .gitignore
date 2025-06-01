@@ -1,0 +1,13 @@
+# Ignore environment variables
+.env
+
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# OS / IDE stuff
+.DS_Store
+*.swp
+.vscode/
